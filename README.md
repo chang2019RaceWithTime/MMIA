@@ -41,7 +41,7 @@ Trains a multimodal (audio + visual) model under federated learning and logs per
 python training_construct_lira_opti.py
 ```
 
-Builds a structured attack dataset from the logged intermediate variables using the LiRA framework. Each sample is labeled `Member` or `Non_Member` and enriched with modality-specific features including the **modality gap signal** (audio loss − visual loss).
+Builds a structured attack dataset from the logged intermediate variables, where each sample is labeled Member or Non_Member and enriched with modality-specific features including the modality gap signal (audio loss − visual loss).
 
 ---
 
