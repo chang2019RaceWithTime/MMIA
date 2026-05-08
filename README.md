@@ -72,13 +72,15 @@ pip install -r requirements.txt
 | opacus | 1.5.4 |
 | seaborn | 0.13.2 |
 
-### Dataset
+## 📦 Datasets
 
-Evaluated on the **CREMA-D** dataset. Set the correct path in `main_multimodal.py`:
+This project is evaluated on three multimodal datasets:
 
-```python
-self.data_root = '/path/to/CREMA-D'
-```
+- **CREMA-D** — Crowd-sourced emotional multimodal actors dataset (audio + visual) [[Paper]](https://doi.org/10.1109/TAFFC.2014.2336244)
+- **AVE** — Audio-Visual Event localization dataset [[Paper]](https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Yapeng_Tian_Audio-Visual_Event_Localization_ECCV_2018_paper.php)
+- **Balanced** — Balanced Audiovisual Dataset for Imbalance Analysis [[Paper]](https://arxiv.org/abs/2302.10912)
+
+Please refer to the respective papers for download and usage instructions.
 
 ---
 
@@ -91,9 +93,12 @@ Built upon **[FedMIA](https://github.com/Liar-Mask/FedMIA)** — thanks to the a
 ## 📄 Citation
 
 ```bibtex
-@article{mmia2025,
-  title={The Hidden Risk: Membership Inference Attacks on Multimodal Federated Learning via Modality Imbalance},
-  author={Your Name et al.},
-  year={2025}
+@inproceedings{
+anonymous2026the,
+title={The Hidden Risk: Membership Inference Attacks on Multimodal Federated Learning via Modality Imbalance},
+author={Anonymous},
+booktitle={Forty-third International Conference on Machine Learning},
+year={2026},
+url={https://openreview.net/forum?id=p3Cgr7EgTZ}
 }
 ```
